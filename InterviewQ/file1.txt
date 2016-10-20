@@ -1,0 +1,1 @@
+{"Request URL":"GET \/htbin\/wais.pl HTTP\/1.0","IP":"ppp160.iadfw.net"}
