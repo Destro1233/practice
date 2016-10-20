@@ -41,12 +41,17 @@ public class test {
 			JSONObject obj = new JSONObject();
 			System.out.println("Sample Output:\n Access Entries:");
 			Iterator<String[]> itr = ar.iterator();
+			int i =0;
 			while (itr.hasNext()) {
+				
+				JSONObject obj1 = new JSONObject();
 				String[] s2 = (String[]) itr.next();
 				System.out.println("{\nIP: " + s2[0]);
-				obj.put("IP", s2[0]);
+				obj1.put("IP", s2[0]);
 				System.out.println("Request URL: " + s2[1] + "\n}\n");
-				obj.put("Request URL", s2[1]);
+				obj1.put("Request URL", s2[1]);
+				obj.put(i,obj1);
+				i++;
 			}
 			System.out.println("}\n}");
 			FileWriter file1 = new FileWriter("file1.txt");
