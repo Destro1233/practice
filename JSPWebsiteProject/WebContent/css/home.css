@@ -1,0 +1,25 @@
+body {
+	font-family: 'Tangerine', serif;
+	font-size: 30px;
+}
+
+.h1 {
+	font-size: 48px;
+}
+
+.div-image {
+	float: right;
+	width: 472px;
+	height: 516px;
+	margin-right: 10%;
+	margin-top: 80px;
+}
+
+.div-display {
+	padding-top: 40px;
+	padding-left: 90px;
+	text-align: left;
+	width: 40%;
+	height: 300px;
+	float: left;
+}
