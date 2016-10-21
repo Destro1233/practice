@@ -8,6 +8,7 @@ ul {
     position: fixed;
     top: 0;
     width: 100%;
+    
 }
 
 li {
@@ -37,7 +38,7 @@ li img:hover {
 .div-display {
 	padding: 40px 90px;
 	text-align: left;
-	width: 100px;
+	width: 40%;
 	height: 300px;
 	border-bottom-color: aqua;/* not working */
 	border: thin; /* not working */
