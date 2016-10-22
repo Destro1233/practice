@@ -99,8 +99,7 @@ tr {
 				</tr>
 				<tr>
 					<td>Activities</td>
-					<td><textarea rows="4" cols="30" name="activities">
-					</textarea></td>
+					<td><textarea rows="4" cols="30" name="activities"></textarea></td>
 				</tr>
 				<tr>
 					<td colspan="2"><input class="button" type="submit"
