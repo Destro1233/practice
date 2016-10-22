@@ -29,7 +29,9 @@
 			<img src="images/kohinoor.jpg" alt="Kohinoor">
 		</div>
 	</div>
-	<footer class="footer"> <%@include file="html/footer.html"%> </footer>
+	<footer class="footer">
+		<%@include file="html/footer.html"%>
+	</footer>
 </body>
 </html>
 

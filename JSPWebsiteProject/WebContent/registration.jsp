@@ -5,26 +5,30 @@
 <link rel="stylesheet" type="text/css"
 	href="https://fonts.googleapis.com/css?family=Tangerine">
 <link rel="stylesheet" type="text/css" href="css/home.css">
-<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Open+Sans"
+	rel="stylesheet">
 <style>
-#backgroundImage{z-index: 1;}
+#backgroundImage {
+	z-index: 1;
+}
 
 #backgroundImage:before {
-   content: "";
-   position: absolute;
-   z-index: -1;
-   top: 0;
-   bottom: 0;
-   left: 0;
-   right: 0;
-   background-image: url(images/regis-background.jpg);
-    background-repeat: no-repeat;
-    background-size: 100%;
-    opacity: 0.6;
-    filter:alpha(opacity=40);
-    height:100%;
-    width:100%;
- }
+	content: "";
+	position: absolute;
+	z-index: -1;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	background-image: url(images/regis-background.jpg);
+	background-repeat: no-repeat;
+	background-size: 100%;
+	opacity: 0.6;
+	filter: alpha(opacity = 40);
+	height: 100%;
+	width: 100%;
+}
+
 div {
 	padding-top: 10%;
 	text-align: center;

@@ -11,7 +11,9 @@
 		<%@include file="html/header.html"%>
 	</header>
 	<!-------- text here -------->
-	<footer class="footer"> <%@include file="html/footer.html"%> </footer>
+	<footer class="footer">
+		<%@include file="html/footer.html"%>
+	</footer>
 </body>
 </html>
 

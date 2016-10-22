@@ -10,8 +10,9 @@
 	href="https://fonts.googleapis.com/css?family=Tangerine">
 <link rel="stylesheet" type="text/css" href="css/home.css">
 </head>
-<body background="images/regisCheck-background.jpg" style="color: white;">
-<header>
+<body background="images/regisCheck-background.jpg"
+	style="color: white;">
+	<header>
 		<%@include file="html/header.html"%>
 	</header>
 	<%!private Boolean register(String firstname, String lastname, String username, String password, String email,
@@ -62,8 +63,9 @@
 		System.out.println("Values given\nusername:" + username + "\npassword: " + password + "\nname :" + firstname
 				+ " " + lastname + "\nemail: " + email + "\nactivities: " + activities);
 		String title = null;
-		if (register(firstname,lastname,username, password, email, activities)) {
-			title = "<h2 style='padding-top: 10%;'>You have registered successfully :" + firstname + " " + lastname +"</h2>";
+		if (register(firstname, lastname, username, password, email, activities)) {
+			title = "<h2 style='padding-top: 10%;'>You have registered successfully :" + firstname + " " + lastname
+					+ "</h2>";
 			title += "<br/>Please click here to <a href='signin.jsp'>login</a>";
 			session.setAttribute("username", username);
 		} else {
@@ -71,7 +73,9 @@
 		}
 		out.println("<h2 >" + title + "</h2>");
 	%>
-<footer class="footer"> <%@include file="html/footer.html"%> </footer>
+	<footer class="footer">
+		<%@include file="html/footer.html"%>
+	</footer>
 </body>
 </html>
 

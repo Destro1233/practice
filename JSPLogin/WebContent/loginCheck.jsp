@@ -21,7 +21,7 @@
 			rset = stmt.executeQuery("SELECT password FROM login where username = '" + username + "'");
 			while (rset.next()) {
 				String pass = rset.getString(1);
-				System.out.println("Password needed :"+pass);
+				System.out.println("Password needed :" + pass);
 				return password.equals(pass);
 			}
 
