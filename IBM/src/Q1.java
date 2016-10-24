@@ -1,4 +1,11 @@
-
+/*
+ * You will be given a positive integer N, and two single-digit integers p and q, where p != q and both are 
+ * greater than 1. You must output all of the integers from 1 to N inclusive,separated by a comma ','.
+ * However, any integer divisible by p or q should be replaced by the text OUT and any integer whose decimal 
+ * representation contains digit p or q should be replaced by the text THINK. 
+ * Integers for which both of the preceding statements are true should instead be replaced by the text 
+ * OUTTHINK.
+ */
 public class Q1 {
 
 	public static void main(String[] args) {
@@ -26,7 +33,6 @@ public class Q1 {
 			// System.out.println(result);
 		}
 		System.out.print(String.join(",", res));
-
 
 	}
 
