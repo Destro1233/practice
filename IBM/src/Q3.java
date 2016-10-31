@@ -50,7 +50,8 @@ public class Q3 {
 	public static void main(String[] args) {
 		//String s = "Frank->Mary,Mary->Sam,Mary->Bob,Sam->Katie,Sam->Pete,Bob->John,Bob,Katie";
 		//Output - Mary
-		String s = "Sam->Pete,Pete->Nancy,Sam->Katie,Mary->Bob,Frank->Mary,Mary->Sam,Bob->John,Sam,John";
+		//String s = "Sam->Pete,Pete->Nancy,Sam->Katie,Mary->Bob,Frank->Mary,Mary->Sam,Bob->John,Sam,John";
+		String s = "Sam->Pete,Pete->Nancy,Sam->Saurabh,Sam,Pete";
 		String[] input = s.split(",");
 		int len = input.length;
 		Map<String, String> m = new HashMap<String, String>();
@@ -87,7 +88,10 @@ public class Q3 {
 			//System.out.println(q1list.get(q1pointer) + " " + q2list.get(q2pointer));
 			--q1pointer;
 			--q2pointer;
+			if(q1pointer == -1 || q2pointer == -1){
+				break;
+			}
 		}
-		System.out.println("Manager is :"+q1list.get(q1pointer+1));
+		System.out.println("Manager is :"+(q1list.size()<=q2list.size()?q1list.get(q1pointer+1):q2list.get(q2pointer+1)));
 	}
 }
