@@ -55,7 +55,7 @@ public class Anagram438 {
 	}
 
 	public List<Integer> findAnagrams(String s, String p) {
-		List<Integer> res = new ArrayList<>();
+		List<Integer> res = new ArrayList<Integer>();
 		if (p.length() > s.length())
 			return res;
 		char[] sStr = s.toCharArray();
